@@ -7,7 +7,7 @@ use llm_chain_llama::{ContextParams, PerExecutor, PerInvocation};
 ///
 /// This example can be seen as a "chain of thought"
 ///
-/// Usage: cargo run --example few-shot
+/// Usage: cargo run --example few_shot
 ///
 /// Make sure to have the env var 'LLAMA_MODEL_PATH' set
 #[tokio::main(flavor = "current_thread")]
